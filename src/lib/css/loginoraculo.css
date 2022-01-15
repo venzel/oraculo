@@ -1,0 +1,479 @@
+@charset "utf-8";
+
+/*
+App Name: Oraculo Financeiro
+Description: Sistema Financeiro Oraculo
+Author: Almeida Junior
+Author URI: http://www.venzel.com.br
+Version: 1.0
+
+License: ASS Tecnologia
+License URI: http://www.asstecnologia.com.br
+*/
+
+/* 
+# ------------------------------------------------------ #
+# body : box											 #
+# ------------------------------------------------------ #
+*/
+
+body div#box {
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+/* 
+# ------------------------------------------------------ #
+# Box centralizado										 #
+# ------------------------------------------------------ #
+*/
+
+#box div#bc_0 {
+	position:absolute;
+	width:100%;
+	height:100%;
+	min-width:1300px;
+	min-height:670px;
+}
+
+#bc_0 div#bc_1 {
+	height:100%;
+	margin:auto;
+	display:table;
+	#position:relative
+}
+
+#bc_1 div#bc_2 {
+	#position:absolute; 
+	#top:50%;
+	display:table-cell;
+	vertical-align:middle
+}
+
+#bc_2 div#bc_3 {
+	overflow:hidden;
+	#position:relative; 
+	#top:-50%;
+}
+
+/* 
+# ------------------------------------------------------ #
+# Borda no topo e no rodape								 #
+# ------------------------------------------------------ #
+*/
+
+#bc_0 div#bf1 {
+	position:absolute;
+	width:100%;
+	height:2px;
+	background-color:#000000;
+	top:0px;
+	left:0px;
+}
+
+/* 
+# ------------------------------------------------------ #
+# Login e cadastro										 #
+# ------------------------------------------------------ #
+*/
+
+/* Validar campo */
+.vlc { border:1px solid #788D23 !important; }
+
+.vlc input, .vlc select { background-color:#FEFFF9 !important; }
+
+.bol {
+	position:absolute;
+	width:100px;
+	top:0px;
+	right:-133px;
+	border:1px solid #CCCCCC;
+	background-color:#FFFFE7;
+	padding:10px;
+	padding-top:8px;
+	padding-bottom:8px;
+	line-height:13px;
+}
+
+.bol div {
+	position:absolute;
+	width:5px;
+	height:9px;
+	top:9px;
+	left:-5px;
+	background-image:url(../../images/bind.gif);
+	background-color:#FFFFE7;
+}
+
+#bc_3 div#loc {
+	overflow:hidden;
+	margin-bottom:100px;
+}
+
+/* Setor a : logotipo */
+#loc div#sta {
+	position:relative;
+	float:left;
+	width:350px;
+	min-height:424px;
+	margin-right:60px;
+}
+
+/* Setor a : slogan */
+#sta span {
+	display:block;
+	margin-top:10px;
+	margin-left:15px;
+	text-align:center;
+}
+
+/* Logotipo */
+#sta img {
+	display:block;
+	margin:auto;
+	margin-top:170px;
+}
+
+/* Barra divisoria */
+#sta div#bdilc {
+	position:absolute;
+	width:3px;
+	height:424px;
+	background-image:url(../../images/divlosc.png);
+	right:-2px;
+	top:0px;
+}
+
+/* Setor b : login e cadastro */
+#loc div.stb {
+	width:402px;
+	float:left;
+}
+
+.stb div.lca_e {}
+
+/* Hack para o form de login */
+.stb div.cfl { margin-top:120px; }
+
+/* Hack para o form de cadastro */
+.stb div.cfc { margin-top:45px; }
+
+/* Hack para cadastro efetuado */
+.stb div.cef { display:none }
+
+/* Esconder box de login ou senha */
+#loc div.cbc { display:none !important; }
+
+.lca_e div.tol {
+	background-color:#689C12;
+	width:320px;
+	height:28px;
+	padding-left:8px;
+	font-family:arial;
+	font-size:18px;
+	line-height:26px;
+	color:#FFFFFF;
+}
+
+.lca_e div.blc_e {
+	margin-top:30px;
+}
+
+.blc_e div.itpi {
+	height:29px;
+	margin-bottom:8px;
+}
+
+.itpi div.lipi {
+	float:left;
+	width:80px;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+	line-height:28px;
+	text-align:left;
+}
+
+/* Hack para confirmar senha */
+.itpi div.cfsa {
+	line-height:13px;
+}
+
+.itpi div.bifo {
+	position:relative;
+	float:left;
+	border:1px solid #CDCDCD;
+}
+
+.bifo input {
+	width:188px;
+	text-indent:20px;
+	background-position:center left;
+	background-repeat:no-repeat;
+}
+
+.bifo input.login { background-image:url(../../images/usr.gif); }
+.bifo input.senha { background-image:url(../../images/snr.gif); }
+
+/* Lembrar-me */
+.blc_e div.pll {
+	overflow:hidden;
+}
+
+.pll div {
+	margin-left:80px;
+	margin-right:5px;
+	float:left;
+}
+
+.pll label {
+	font-size:11px;
+	color:#666666;
+	cursor:pointer;
+}
+
+.blc_e div.bac {
+	margin-top:8px;
+	margin-left:80px;
+}
+
+/* Hack botao de cadastro */
+.blc_e div.bch { margin-top:15px !important; }
+
+.blc_e div.bda {
+	margin-left:80px;
+}
+
+/* Esqueceu a senha */
+.bda div.klz {
+	height:20px;
+}
+
+.klz span {
+	float:left;
+	margin-right:5px;
+}
+
+.klz a {
+	float:left;
+	text-decoration:underline;
+}
+
+.klz a:hover {
+	text-decoration:none;
+}
+
+/* O que parece certo */
+.bda div.oqc {
+	position:relative;
+	margin-top:10px;
+}
+
+.oqc span.txoc {
+	font-weight:bold;
+}
+
+/* Check */
+.chck {
+	width:15px;
+	height:15px;
+	background-image:url(../../images/ved.gif);
+}
+
+.oqc div.foc {
+	position:relative;
+	height:15px;
+	margin-top:10px;
+}
+
+.foc div.fcx_e {
+	float:left;
+	position:relative;
+}
+
+.fcx_e div {
+	float:left;
+	margin-right:3px;
+}
+
+/* Hack */
+.fcx_e div.chi2 { margin-left:10px; }
+
+.fcx_e label {
+	float:left;
+	line-height:14px;
+	margin-right:4px;
+	cursor:pointer;
+}
+
+.fcx_e span.chck {
+	position:relative;
+	float:left;
+	top:-1px;
+}
+
+/* Termos de uso */
+.bda div#tmu {
+	margin-top:15px;
+	height:20px;
+}
+
+/* Capsula */
+#tmu div#tmx_e {
+	float:left;
+	position:relative;
+}
+
+/* Check */
+#tmx_e span.chck {
+	position:absolute;
+	right:-20px;
+	top:0px;
+}
+
+#tmx_e div {
+	float:left;
+	margin-right:7px;
+}
+
+#tmx_e label, #tmx_e a { line-height:13px; }
+
+#tmx_e label {
+	float:left;
+	margin-right:3px;
+	cursor:pointer;
+}
+
+#tmx_e a {
+	float:left;
+	text-decoration:underline;
+}
+
+#tmx_e a:hover { text-decoration:none; }
+
+/* Acessar atraves das redes sociais */
+.blc_e div#ars {
+	position:relative;
+	height:25px;
+	margin-left:80px;
+	margin-top:20px;
+}
+
+#ars div {
+	position:absolute;
+	width:200px;
+	height:1px;
+	background-color:#DDDDDD;
+}
+
+#ars span {
+	float:left;
+	margin-right:5px;
+	margin-top:7px;
+}
+
+#ars ul {
+	float:left;
+	margin-top:7px;
+}
+
+#ars ul li {
+	float:left;
+	margin-right:5px;
+	padding-right:5px;
+	border-right:1px solid #DDDDDD;
+}
+
+/* Hack */
+#ars ul li.ciu {
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+
+#ars ul li a { text-decoration:underline; }
+
+#ars ul li a:hover { text-decoration:none; }
+
+/* Painel de mensagem de sucesso de cadastro */
+.stb div.msc {
+	display:none;
+	position:relative;
+	margin-top:190px;
+	text-align:center;
+}
+
+/* Hack para mostrar painel de sucesso */
+.stb div.sms { display:block; }
+
+.msc span {
+	display:block;
+	font-size:18px;
+	color:#006600;
+	margin-bottom:8px;
+}
+
+.msc a { text-decoration:underline; }
+
+.msc a:hover { text-decoration:none; }
+
+/* 
+# ------------------------------------------------------ #
+# Rodape												 #
+# ------------------------------------------------------ #
+*/
+
+#bc_0 div#rdp {
+	position:absolute;
+	width:100%;
+	height:120px;
+	bottom:0px;
+	border-bottom:2px solid #000000;
+}
+
+#rdp div#rpe_e {
+	position:relative;
+	width:860px;
+	margin:auto;
+}
+
+#rpe_e ul {
+	overflow:hidden;
+	width:470px;
+	margin:auto;
+	text-align:center;
+}
+
+#rpe_e ul li {
+	display:inline-block;
+	margin-bottom:5px;
+	margin-right:10px;
+	padding-right:10px;
+	border-right:1px solid #DDDDDD;
+}
+
+#rpe_e ul li a {
+	font-family:arial;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+/* Hack */
+#rpe_e ul li.uil {
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+
+#rpe_e ul li a:hover { text-decoration:none; }
+
+/* Copyright */
+#rpe_e div#copy {
+	width:860px;
+	margin:auto;
+	margin-top:10px;
+	padding-top:10px;
+	border-top:1px dashed #DDDDDD;
+	text-align:center;
+}

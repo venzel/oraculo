@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+/*
+App Name: Oraculo Financeiro
+Description: Sistema Financeiro Oraculo
+Author: Almeida Júnior
+Author URI: http://www.venzel.com.br
+Version: 1.0
+
+License: ASS Tecnologia
+License URI: http://www.asstecnologia.com.br
+*/
+
+/* 
+# ------------------------------------------------------ #
+# Reset													 #
+# ------------------------------------------------------ #
+*/
+
+*{
+	padding:0px;
+	margin:0px;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,th,td {
+	padding:0px;
+	margin:0px;
+	font-family:tahoma;
+	font-size:11px;
+	line-height:0.95;
+}
+
+html {
+	width:100% !important;
+	height:100% !important;
+	min-width:1300px;
+}
+
+body { background-color:#FFFFF; }
+
+table {
+    border-collapse:collapse;
+    border-spacing:0px;
+}
+
+fieldset,img { border:0px; }
+
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-style:normal;
+}
+
+ol,ul { list-style:none; }
+
+caption,th { text-align:left; }
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight:normal;
+    font-size:100%;
+}
+
+q:before,q:after { content:''; }
+
+abbr,acronym { border:0px; }
+
+a {
+	font-family:tahoma;
+	font-size:11px;
+	text-decoration:none;
+	color:#0060BF;
+}
+
+a:active {
+	color:#184767;
+}
+
+a:visited {
+	color:#0060BF;
+}
+
+a:hover {
+	color:#0060BF;
+	text-decoration:underline;
+}
+
+/* 
+# ------------------------------------------------------ #
+# Forms													 #
+# ------------------------------------------------------ #
+*/
+
+/* Input textbox */
+.txtinput {
+	padding-bottom:7px;
+	padding-top:7px;
+	border:0px;
+	background-color:#FFFFFF;
+	text-indent:4px;
+	font-family:tahoma;
+	font-size:11px;
+	color:#000000;
+}
+
+/* Input buttom */
+.btninput {
+	height:26px;
+	padding-bottom:2px;
+	padding-left:10px;
+	padding-right:10px;
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:bold;
+	color:#4E5B74;
+	border:1px solid #C5C5C5;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#F3F3F3'); /* IE */
+	background:-webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#F3F3F3)); /* webkit browsers */
+	background:-moz-linear-gradient(top, #FFFFFF, #F3F3F3); /* Firefox 3.6+ */
+	-moz-box-shadow:1px 1px 0px 0px #CCC;
+	-webkit-box-shadow:1px 1px 0px 0px #CCC;
+	box-shadow:1px 1px 0px 0px #CCC;
+}
+
+/* Input buttom sel */
+.btninput_h {
+	height:26px;
+	padding-bottom:2px;
+	padding-left:10px;
+	padding-right:10px;
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:bold;
+	color:#909090;
+	border:1px solid #C5C5C5;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#FBFBFB'); /* IE */
+	background:-webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#FBFBFB)); /* webkit browsers */
+	background:-moz-linear-gradient(top, #FFFFFF, #FBFBFB); /* Firefox 3.6+ */
+	-moz-box-shadow:1px 1px 0px 0px #EEE;
+	-webkit-box-shadow:1px 1px 0px 0px #EEE;
+	box-shadow:1px 1px 0px 0px #EEE;
+}
+
+/* Select */
+.txtslc {
+	height:27px;
+	background-color:#FFFFFF;
+	font-family:tahoma;
+	font-size:11px;
+	color:#000000;
+}
